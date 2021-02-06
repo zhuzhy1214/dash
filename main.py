@@ -6,7 +6,9 @@ from dash.dependencies import Input, Output
 
 # from layouts import layout1, layout2, home_page
 # import callbacks
-from apps import app, app1, uploadfile, home, app_projectbook
+from apps import  app1, uploadfile, home, app_projectbook
+
+from apps.app import app
 
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
