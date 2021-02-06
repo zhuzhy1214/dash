@@ -15,7 +15,7 @@ from dash.exceptions import PreventUpdate
 import plotly.graph_objects as go
 import plotly.express as px
 
-from app import app
+from apps.app import app
 
 # app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
